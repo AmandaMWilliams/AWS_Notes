@@ -47,3 +47,17 @@
 
 ## EC2 (Regional)
 * Elastic Compute Cloud (Infrastructure as a Service)
+* Rent virtual machines (EC2)
+* Store data on virtual drives (EBS)
+* Distribute load access machines (ELB)
+* Scaling the services using auto-scaling group (ASG) 
+  <br><br>
+* AMI (Amazon Machine Image): a template that contains software configurations
+  <br><br>
+* EC2 Security Groups: control how traffic is allowed into and out of EC2 instances
+<br><BR>
+  
+#### Ports to know:
+* 22 = SSH (Secure Shell) : Long into Linux instance
+* 21 = FTP (File Transport Protocol) : Upload files into a file share
+* 22 = SFTP (Secure File Transport Protocol)
