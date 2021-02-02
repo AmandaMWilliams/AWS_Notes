@@ -60,4 +60,24 @@
 #### Ports to know:
 * 22 = SSH (Secure Shell) : Long into Linux instance
 * 21 = FTP (File Transport Protocol) : Upload files into a file share
-* 22 = SFTP (Secure File Transport Protocol)
+* 22 = SFTP (Secure File Transport Protocol) :  Upload files using SSH
+* 80 = HTTP : Access unsecured websites
+* 443 = HTTPS : Access secured websites
+* 3389 = RDP (Remote Desktop Protocol) : Log into Windows instance
+
+<hr>
+
+### EC2 Shared Responsibility Model
+#### AWS
+* Infrastructure (Global Network Security)
+* Configuration & vulnerability analysis
+* Compliance validation
+
+#### User
+* Users, groups, roles, & policies management & monitoring
+* Enable MFA on all accounts
+* Rotate keys often
+* User IAM tools to apply appropriate permissions
+* Analyze access patterns & review permissions
+
+<hr><hr>
