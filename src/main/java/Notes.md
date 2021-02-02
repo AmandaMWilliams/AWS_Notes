@@ -1,6 +1,21 @@
 # AWS Level 1 Course Notes
 #### Started Jan 27, 2021
 
+## AWS
+* Amazon Web Services
+* Global cloud platform
+* Allows users to host and manage services on the internet
+* Infrastructure as a Service (IaaS)
+  * Users do not need to manage the back-up, storage, or power supply of servers
+  
+* Platform as a Service (PaaS)
+  * Users do not have to manage the binary of their application languages (Java, Python, etc.)
+  
+* Software as a Service (SaaS)
+  * Users get email and queuing capabilities
+
+<hr><hr>
+
 ## IAM (Global)
 * Identity and Access Management
 * Users & Groups
@@ -31,3 +46,4 @@
 <hr><hr>
 
 ## EC2 (Regional)
+* Elastic Compute Cloud (Infrastructure as a Service)
