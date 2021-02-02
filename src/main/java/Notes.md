@@ -1,5 +1,5 @@
 # AWS Level 1 Course Notes
-### Started Jan 27, 2021
+#### Started Jan 27, 2021
 
 ## IAM (Global)
 * Identity and Access Management
@@ -20,3 +20,11 @@
 * Compliance validation
 
 #### User
+* Users, groups, roles, & policies management & monitoring
+* Enable MFA on all accounts
+* Rotate keys often
+* User IAM tools to apply appropriate permissions
+* Analyze access patterns & review permissions
+
+<hr><hr>
+
