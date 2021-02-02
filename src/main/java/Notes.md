@@ -10,3 +10,13 @@
     * Virtual MFA Device: phone or computer token
     * U2F: Yubikey - token stored on thumb-drive looking device
     * Hardware Key Fob: numeric code refreshed periodically
+  
+<hr>
+
+### IAM Shared Responsibility Model
+#### AWS 
+* Infrastructure (Global Network Security)
+* Configuration & vulnerability analysis
+* Compliance validation
+
+#### User
