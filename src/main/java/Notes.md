@@ -70,14 +70,15 @@
 ### EC2 Shared Responsibility Model
 #### AWS
 * Infrastructure (Global Network Security)
-* Configuration & vulnerability analysis
+* Isolation on physical hosts
+* Replacing faulty hardware
 * Compliance validation
 
 #### User
-* Users, groups, roles, & policies management & monitoring
-* Enable MFA on all accounts
-* Rotate keys often
-* User IAM tools to apply appropriate permissions
-* Analyze access patterns & review permissions
+* Security groups rules
+* OS patches and updates
+* Software and utilities installed on the EC2 instance
+* IAM roles assigned to EC2 & IAM user access management
+* Data security of your instance
 
 <hr><hr>
