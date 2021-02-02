@@ -5,6 +5,8 @@
 * Identity and Access Management
 * Users & Groups
 * Permissions can be assigned to Users &&/|| Groups
+  * MINIMUM PERMISSION PRINCIPLE: allow the least amount of access necessary to any one user or group.
+  Unused access should be removed.
 * Can create a password policy/ requirement
 * MFA (Multi-factor authentication
     * Virtual MFA Device: phone or computer token
