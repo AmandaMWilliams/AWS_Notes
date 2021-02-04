@@ -82,3 +82,6 @@
 * Data security of your instance
 
 <hr><hr>
+
+## EBS Snapshot 
+* Used for EC2 storage
