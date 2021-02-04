@@ -93,4 +93,6 @@ snapshot, then attach snapshot to instance 2.
 
 ## AMI
 * Amazon Machine Image
-* A customization
+* A customization of an EC2 instance
+  * customer software configuration, OS, monitoring, etc.
+  * faster boot because software is prepackaged
