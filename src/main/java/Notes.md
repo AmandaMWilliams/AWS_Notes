@@ -108,3 +108,8 @@ AWS Marketplace AMI :  AMI made by someone else (a vendor)<br>
 2. Stop the instance for data integrity
 3. Create an AMI (Also creates an EBS snapshot)
 4. Launch from the AMI to a new region (essentially making a copy of the EC2 instance)
+
+<hr>
+
+## EC2 Image Builder
+
