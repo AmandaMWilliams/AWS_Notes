@@ -98,11 +98,12 @@ snapshot, then attach snapshot to instance 2.
   * faster boot because software is prepackaged through the AMI
   
 * AMI are built for specific regions but can be copied across regions
-<br><br>
+  <br><br>
+  
 Public AMI : provided by AWS<br>
 Your own AMI : you make and maintain the AMI yourself<br>
 AWS Marketplace AMI :  AMI made by someone else (a vendor)<br>
-  
+
 1. Launch an EC2 instance in a region
 2. Stop the instance for data integrity
 3. Create an AMI (Also creates an EBS snapshot)
