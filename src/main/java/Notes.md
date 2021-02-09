@@ -94,7 +94,16 @@ snapshot, then attach snapshot to instance 2.
 ## AMI (Regional)
 * Amazon Machine Image
 * A customization of an EC2 instance
-  * customer software configuration, OS, monitoring, etc.
-  * faster boot because software is prepackaged
+  * customer adds their own software configuration, OS, monitoring, etc.
+  * faster boot because software is prepackaged through the AMI
   
 * AMI are built for specific regions but can be copied across regions
+<br><br>
+Public AMI : provided by AWS<br>
+Your own AMI : you make and maintain the AMI yourself<br>
+AWS Marketplace AMI :  AMI made by someone else (a vendor)<br>
+  
+1. Launch an EC2 instance in a region
+2. Stop the instance for data integrity
+3. Create an AMI (Also creates an EBS snapshot)
+4. Launch from the AMI to a new region (essentially making a copy of the EC2 instance)
