@@ -52,6 +52,11 @@
 * Distribute load access machines (ELB)
 * Scaling the services using auto-scaling group (ASG) 
   <br><br>
+  
+* Instances available : t2.micro, t2.xlarge, c5d.4xlarge, r5.16xlarge, m5.8xlarge 
+  * choose based on how much CPU, Memory, Ram you need.
+  
+<br>
 * AMI (Amazon Machine Image): a template that contains software configurations
   <br><br>
 * EC2 Security Groups: control how traffic is allowed into and out of EC2 instances
