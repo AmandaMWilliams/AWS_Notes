@@ -63,12 +63,12 @@
 <br><BR>
   
 #### Ports to know:
-* 22 = SSH (Secure Shell) : Long into Linux instance
-* 21 = FTP (File Transport Protocol) : Upload files into a file share
-* 22 = SFTP (Secure File Transport Protocol) :  Upload files using SSH
-* 80 = HTTP : Access unsecured websites
-* 443 = HTTPS : Access secured websites
-* 3389 = RDP (Remote Desktop Protocol) : Log into Windows instance
+* <b>22</b> = SSH (Secure Shell) : Long into Linux instance
+* <b>21</b> = FTP (File Transport Protocol) : Upload files into a file share
+* <b>22</b> = SFTP (Secure File Transport Protocol) :  Upload files using SSH
+* <b>80</b> = HTTP : Access unsecured websites
+* <b>443</b> = HTTPS : Access secured websites
+* <b>3389</b> = RDP (Remote Desktop Protocol) : Log into Windows instance
 
 <hr>
 
