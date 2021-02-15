@@ -54,7 +54,7 @@
   <br><br>
   
 * Instances available : t2.micro, t2.xlarge, c5d.4xlarge, r5.16xlarge, m5.8xlarge 
-  * choose based on how much CPU, Memory, Ram you need.
+  * choose based on how much CPU, Memory, Bandwidth you need.
   
 <br>
 * AMI (Amazon Machine Image): a template that contains software configurations
