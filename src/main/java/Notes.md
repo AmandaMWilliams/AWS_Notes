@@ -101,7 +101,7 @@
 ### AMI (Regional)
 * Amazon Machine Image
 * A ready-to-use customization of an EC2 instance
-  * customer adds their own software configuration, OS, monitoring, etc.
+  * customer adds their own software configuration, software licenses, OS, monitoring, etc.
   * faster boot because software is prepackaged through the AMI
   
 * AMI are built for specific regions but can be copied across regions
