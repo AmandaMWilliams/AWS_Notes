@@ -187,3 +187,40 @@ AWS Marketplace AMI :  AMI made by someone else (a vendor)<br>
   * Network Load Balancer (ultra high performance, allows for TCP) - Layer 4
   * Classic Load Balancer (slowly retiring) - Layer 4 & 7
 
+<hr><hr>
+
+## Amazon S3 (Global)
+* "Infinitely Scaling" storage
+
+* Used for:
+  * Backup and storage
+  * Disaster recovery
+  * Archive
+  * Hybrid Cloud storage
+  * Application hosting
+  * Media hosting
+  * Data lakes & big data analytics
+    
+* Store objects (files) in "buckets" (directories)
+* Objects have a key: the full path (prefix + object Name)
+
+Durability: how often will you not lose a file, high durability
+Availability: how readily available a service is, high availability
+
+<hr>
+
+### S3 Shared Responsibility Model
+#### AWS
+* Infrastructure (global security, durability, availability, sustain concurrent loss of data in two facilities)
+* Configuration and vulnerability analysis
+* Compliance validation
+
+#### User
+* S3 Versioning
+* S3 Bucket Policies
+* S3 Replication Setup
+* Logging and Monitoring
+* S3 Storage classes
+* Data encryption at rest and in transit
+
+<hr><hr>
