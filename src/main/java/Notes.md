@@ -163,3 +163,27 @@ AWS Marketplace AMI :  AMI made by someone else (a vendor)<br>
 
 <hr><hr>
 
+### Vertical Scalability
+* Increasing the size of your instance (from nano to XL, for example)
+* good for databases
+  
+### Horizontal Scalability
+* increasing the number of instances/systems for the application
+
+### High Availability
+* running application/system in at least 2 availability zones (works hand in hand with horizontal scalability)
+
+<hr>
+
+## ELB - Elastic Load Balancing
+
+* Load balancers are services that forward internet traffic to multiple servers
+* ELB is a managed load balancer
+  * AWS guarantees it will be working
+  * AWS takes care of upgrades, maintenance, high availability
+  
+* 3 Kinds :
+  * Application Load Balancer (HTTP/HTTPS only) - Layer 7
+  * Network Load Balancer (ultra high performance, allows for TCP) - Layer 4
+  * Classic Load Balancer (slowly retiring) - Layer 4 & 7
+
