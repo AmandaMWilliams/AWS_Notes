@@ -125,3 +125,26 @@ AWS Marketplace AMI :  AMI made by someone else (a vendor)<br>
 * Automate the creation, maintain, validate and test EC2 AMIs
 * Can return on a schedule (weekly, whenever packages are updated, etc)
 * Free service (only pay for the underlying resources)
+
+<hr>
+
+## EC2 Instance Store
+
+* EBS volumes are network drives with good but limited performance
+* If you need a high-performance hardware disk, use EC2 Instance Store <br><br>
+
+* Better I/O performance
+* EC2 Instance Store lose their storage if they are stopped (ephemeral)
+* Good for buffer/cache/scratch data/temporary client
+* Risk of data loss if hardware fails
+
+<hr>
+
+## EFS - Elastic File System
+
+* A shared file of data that can be accessed in multiple Availability Zones simultaneously
+* Managed NFS (network file system) that can be mounted in 100s of EC2
+* EFS works with Linux EC2 instances in multi-AZ
+
+<hr>
+
