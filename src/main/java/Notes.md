@@ -91,8 +91,10 @@
 ## EBS Snapshot 
 * Used for EC2 storage
 * a "snapshot" is a back-up of what is in storage
-* To move from one EC2 instance to another, disconnect EBS from instance 1, take a 
-snapshot, then attach snapshot to instance 2.
+* To move from one EC2 instance to another: 
+  1. Disconnect EBS from instance 1 
+  2. Take a snapshot of the volume
+  3. Attach snapshot to instance 2
   
 <hr>
 
