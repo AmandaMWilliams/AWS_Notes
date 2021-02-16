@@ -88,7 +88,7 @@
 
 <hr><hr>
 
-## EBS Snapshot 
+### EBS Snapshot 
 * Used for EC2 storage
 * a "snapshot" is a back-up of what is in storage
 * To move from one EC2 instance to another: 
@@ -98,9 +98,9 @@
   
 <hr>
 
-## AMI (Regional)
+### AMI (Regional)
 * Amazon Machine Image
-* A customization of an EC2 instance
+* A ready-to-use customization of an EC2 instance
   * customer adds their own software configuration, OS, monitoring, etc.
   * faster boot because software is prepackaged through the AMI
   
@@ -118,7 +118,7 @@ AWS Marketplace AMI :  AMI made by someone else (a vendor)<br>
 
 <hr>
 
-## EC2 Image Builder (Regional)
+### EC2 Image Builder (Regional)
 
 * Like a template/recipe for EC2 instances that can be duplicated over other regions?
 * Used to automate the creation of Virtual Machines or container images
@@ -128,7 +128,7 @@ AWS Marketplace AMI :  AMI made by someone else (a vendor)<br>
 
 <hr>
 
-## EC2 Instance Store
+### EC2 Instance Store
 
 * EBS volumes are network drives with good but limited performance
 * If you need a high-performance hardware disk, use EC2 Instance Store <br><br>
@@ -140,11 +140,26 @@ AWS Marketplace AMI :  AMI made by someone else (a vendor)<br>
 
 <hr>
 
-## EFS - Elastic File System
+### EFS - Elastic File System
 
 * A shared file of data that can be accessed in multiple Availability Zones simultaneously
 * Managed NFS (network file system) that can be mounted in 100s of EC2
 * EFS works with Linux EC2 instances in multi-AZ
 
 <hr>
+
+### EC2 Add-ons Shared Responsibility Model
+#### AWS
+* Infrastructure (Global Network Security)
+* Replication for data for EBS volumes and EFS drives
+* Replacing faulty hardware
+* Ensuring their employees cannot access customer data
+
+#### User
+* Setting up backup/snapshot procedures
+* Setting up data encryption
+* Responsibility for any data on the drives
+* Understanding the risk of using EC2 Instance Store
+
+<hr><hr>
 
