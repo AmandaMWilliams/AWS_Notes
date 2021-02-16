@@ -120,7 +120,7 @@ AWS Marketplace AMI :  AMI made by someone else (a vendor)<br>
 
 ## EC2 Image Builder (Regional)
 
-* Like a template for EC2 instances that can be duplicated over other regions?
+* Like a template/recipe for EC2 instances that can be duplicated over other regions?
 * Used to automate the creation of Virtual Machines or container images
 * Automate the creation, maintain, validate and test EC2 AMIs
 * Can return on a schedule (weekly, whenever packages are updated, etc)
