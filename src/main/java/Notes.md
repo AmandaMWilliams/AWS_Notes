@@ -148,7 +148,7 @@ AWS Marketplace AMI :  AMI made by someone else (a vendor)<br>
 
 <hr>
 
-### EC2 Add-ons Shared Responsibility Model
+### EC2 Storage Shared Responsibility Model
 #### AWS
 * Infrastructure (Global Network Security)
 * Replication for data for EBS volumes and EFS drives
