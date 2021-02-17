@@ -224,3 +224,14 @@ Availability: how readily available a service is, high availability
 * Data encryption at rest and in transit
 
 <hr><hr>
+
+## Databases
+### AWS RDS 
+* Relational Database Services
+* Managed service : Automated provisioning, OS patching
+* cannot SSH into instances
+
+### Amazon Aurora
+* not open sourced
+* PostgreSQL and MySQL both supported
+
