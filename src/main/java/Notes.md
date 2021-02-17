@@ -235,3 +235,13 @@ Availability: how readily available a service is, high availability
 * not open sourced
 * PostgreSQL and MySQL both supported
 
+### Read replicas
+* Scale the read workload of your DB
+* Can create up to 15 Read Replicas
+* Data is only written to the main DB
+
+### Multi-AZ
+* Failover in case of AZ outage (high availability)
+* Data is only read/written to the main database
+* Can only have 1 other AZ as failover
+
