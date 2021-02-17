@@ -365,3 +365,10 @@ execute transactions without the need for a trusted, central authority
 * high availablity but no auto-scaling, limited AWS integrations
 * Not good unless you're new to the cloud
 
+## Elastic Beanstalk
+* PaaS
+* A developer centric view of deploying an application on AWS
+* It uses all the component's we've seen before: EC2, ASG, ELB, RDS, etc.
+* All in one view that's easy to make sense of
+* We still have full control over the configuration
+* Free but you pay for the underlying instances
