@@ -287,3 +287,21 @@ Availability: how readily available a service is, high availability
 * Business analytics, Building visualizations, Perform ad-hoc analysis, Get business insights using data
 * Integrated with RDS, Aurora, Athena, Redshift, S3
 
+### DocumentDB
+* the same for MongoDB (NoSQL database)
+* Used to store, query and index JSON data
+
+### Neptune
+* Fully managed graph database
+
+### QLDB
+* Quantum Ledger Database
+* Used to review history of all the changes made to your application data
+* immutable system
+* Vs Amazon Managed Blockchain: no decentralization component
+
+### Amazon Managed Blockchain
+* Blockchain makes it possible to build applications where multiple parties can 
+execute transactions without the need for a trusted, central authority
+  
+* compatible with the e Hyperledger Fabric and Ethereum
