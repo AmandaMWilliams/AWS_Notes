@@ -272,3 +272,18 @@ Availability: how readily available a service is, high availability
 * SQL interface
 * pay as you go
 
+### Amazon EMR
+* Elastic MapReduce
+* Hadoop cluster
+
+### Athena
+* Fully serverless database is SQL capabilities
+* Used to query data in S3
+* Pay per query
+* log analytics
+
+### QuickSight
+* Serverless machine learning-powered business intelligence service to create interactive dashboards
+* Business analytics, Building visualizations, Perform ad-hoc analysis, Get business insights using data
+* Integrated with RDS, Aurora, Athena, Redshift, S3
+
