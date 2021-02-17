@@ -353,4 +353,14 @@ execute transactions without the need for a trusted, central authority
 * Supports RESTful APIs WebSocket APIs
 
 
+### Lightsail
+* Virtual servers, storage, database, and networking
+* Low & predictable pricing
+* Simpler alternative to using EC2, RDS, ELB, EBS, Route 53
+* Great for people with little cloud experience
+* simple web applications (LAMP, Nginx, MEAN, Node.js)
+* Websites
+* Dev/Test environment
+* high availablity but no auto-scaling, limited AWS integrations
+* Not good unless you're new to the cloud
 
