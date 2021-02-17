@@ -381,3 +381,33 @@ execute transactions without the need for a trusted, central authority
 * Health agent pushes metrics to CloudWatch, checks for app health, 
   publishes health events
 
+## CodeStar
+### CodeDeploy
+* moves EC2 instances applications or servers from V1 to V2
+
+### CodeCommit
+* Github
+* Stores code in a version control repository
+
+### CodeBuild
+* Allows you to build your code, tests, and packages in the cloud
+* fully managed, and serverless
+* Only pay for the time your code is being built
+* Continuously scalable
+
+### CodePipeline
+* Orchestrates the steps to have the code automatically pushed to production
+* Continuous integration & Continuous Delivery
+
+### CodeArtifact
+* Stores and retrieves dependencies (artifact management) to make code
+
+### CodeStar
+* Unified UI to easily manage software development activities in one place
+* Sets up CodeCommit, CodePipeline, CodeBuild, CodeDeploy, Elastic Beanstalk, etc.
+
+## Cloud9
+* A cloud IDE for writing, running and debugging code
+
+
+
