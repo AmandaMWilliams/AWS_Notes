@@ -305,3 +305,21 @@ Availability: how readily available a service is, high availability
 execute transactions without the need for a trusted, central authority
   
 * compatible with the e Hyperledger Fabric and Ethereum
+
+<hr><hr>
+
+### Docker
+* A software development platform to deploy apps
+* Apps are packaged in containers
+* Scale containers on-demand
+
+### ECS
+
+* Elastic Container Service
+* Launch Docker containers on AWS
+* You <b>must</b> provision and maintain the infrastructure
+
+### Fargate
+* Launch Docker containers on AWS
+* You do <b>not</b> provision the infrastructure (no EC2 instances to manage) - simpler!
+
