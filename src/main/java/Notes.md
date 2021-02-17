@@ -245,3 +245,6 @@ Availability: how readily available a service is, high availability
 * Data is only read/written to the main database
 * Can only have 1 other AZ as failover
 
+### Multi-Region
+* save as Multi-AZ but in a different region instead of different AZ
+* replication cost
