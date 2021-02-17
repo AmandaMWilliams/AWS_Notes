@@ -266,3 +266,9 @@ Availability: how readily available a service is, high availability
   * 10x performance improvement
   * Secure, highly scalable & highly available
   * DAX is only used for and is integrated with DynamoDB, while ElastiCache can be used for other databases
+  
+### Redshift
+* OLAP - online analytical processing (analytics and data warehousing)
+* SQL interface
+* pay as you go
+
