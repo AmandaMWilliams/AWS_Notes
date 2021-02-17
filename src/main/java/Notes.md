@@ -333,7 +333,7 @@ execute transactions without the need for a trusted, central authority
 * FaaS
 * Developers dont have to manage the servers
 
-### AWS Lambda
+### Lambda
 * Virtual functions - no servers to manage
 * Limited by time - short executions
 * Run on-demand
@@ -342,7 +342,8 @@ execute transactions without the need for a trusted, central authority
   and 400,000 GBs of compute time (duration)
 * Event-Driven: functions get invoked by AWS when needed
 * Easy monitoring through AWS CloudWatch
-* Lambda Container Image: ECS and Fargate is preferred over this
+* Lambda Container Image: ECS and Fargate is preferred over this LCI
+* Used to create thumbnails for images uploaded to S3, or to run a serverless cron job
 
 ### Amazon API Gateway
 * a serverless API
