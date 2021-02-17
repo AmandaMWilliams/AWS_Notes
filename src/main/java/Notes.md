@@ -322,4 +322,35 @@ execute transactions without the need for a trusted, central authority
 ### Fargate
 * Launch Docker containers on AWS
 * You do <b>not</b> provision the infrastructure (no EC2 instances to manage) - simpler!
+* Serverless
+
+### ECR
+* Elastic Container Registry
+* Private Docker Registry on AWS
+* Where you store your Docker images so they can be run by ECS or Fargate
+
+### Serverless
+* FaaS
+* Developers dont have to manage the servers
+
+### AWS Lambda
+* Virtual functions - no servers to manage
+* Limited by time - short executions
+* Run on-demand
+* Scaling is automated!
+* Pay per request and compute time after 1,000,000 AWS Lambda request (calls) 
+  and 400,000 GBs of compute time (duration)
+* Event-Driven: functions get invoked by AWS when needed
+* Easy monitoring through AWS CloudWatch
+* Lambda Container Image: ECS and Fargate is preferred over this
+
+### Amazon API Gateway
+* a serverless API
+* Fully managed service for developers to easily create, publish, maintain,
+  monitor, and secure APIs
+  
+* Serverless and scalable
+* Supports RESTful APIs WebSocket APIs
+
+
 
