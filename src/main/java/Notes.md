@@ -250,7 +250,7 @@ Availability: how readily available a service is, high availability
 * replication cost
 
 ### ElastiCache
-* get managed Edis or Memchached
+* get managed Edis or Memcached
 * in-memory databases with high performance, low latency
 
 ### DynamoDB
