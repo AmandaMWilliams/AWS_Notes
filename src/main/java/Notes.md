@@ -248,3 +248,21 @@ Availability: how readily available a service is, high availability
 ### Multi-Region
 * save as Multi-AZ but in a different region instead of different AZ
 * replication cost
+
+### ElastiCache
+* get managed Edis or Memchached
+* in-memory databases with high performance, low latency
+
+### DynamoDB
+* NoSQL database - non-relational
+* Scales to massive workloads
+* Fast and consistent
+* Single-digit millisecond latency - low latency retrieval
+* Integrated with IAM for security, authorization and administration
+* Low cost and auto scaling capabilities
+* Key-value database
+* DynamoDB Accelerator - DAX
+  * Fully Managed in-memory cache for DynamoDB
+  * 10x performance improvement
+  * Secure, highly scalable & highly available
+  * DAX is only used for and is integrated with DynamoDB, while ElastiCache can be used for other databases
