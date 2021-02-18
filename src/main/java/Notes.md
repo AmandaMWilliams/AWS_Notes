@@ -461,3 +461,23 @@ MQ
 * managed Apache ActiveMQ
 * Used only if the company is migrating to the cloud from on-premesis and needs to use SQS or SNS
 * does not scale as much as SQS or SNS
+
+<hr><hr>
+
+## Cloud Monitoring
+### CloudWatch Metrics
+* billing metric only available in us-east-1
+
+### CloudWatch Alarms
+* alarm when a certain condition is met
+
+### CloudWatch Logs
+* Collects log files : writes the actions of the application
+* Can collects from Elastic Beanstalk, ECS, Lambda, CloudTrail, EC2 Machines, etc
+* must be added to EC2 instances
+
+### CloudWatch Events/EventBridge
+* Schedule: Cron jobs (scheduled scripts), send a log once every hour (example)
+* Event Pattern: send a log when a specific event happens
+* EventBridge is the next evolution of Events
+* EventBridge has "buses"
