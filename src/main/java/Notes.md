@@ -439,3 +439,25 @@ capabilities but lives in your own data center.
 
 <hr><hr>
 
+SQS
+* Cloud-native
+* used to decouple applications using a queue
+* Webservers > requests >> SQS queue >> video processing
+* messages kept up to 14 days
+
+SNS
+* Cloud-native
+* notification service
+* Pub/Sub
+* Buying service > SNS > sends message to all the subscriptions/subscribers needed without the 
+  buying service having to do it individually
+  
+* No message retention
+  
+Kinesis
+* real-time big data streaming
+
+MQ
+* managed Apache ActiveMQ
+* Used only if the company is migrating to the cloud from on-premesis and needs to use SQS or SNS
+* does not scale as much as SQS or SNS
