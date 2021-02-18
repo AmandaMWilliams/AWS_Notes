@@ -481,3 +481,19 @@ MQ
 * Event Pattern: send a log when a specific event happens
 * EventBridge is the next evolution of Events
 * EventBridge has "buses"
+
+### CloudTrail
+* provides governancy, compliance and audit for you AWS account
+* enabled by default
+* Get a history of events/API calls made by SKD, CLI, Console (AWS) or AWS IAM users
+
+### CloudTrail Insights
+* Analyzes CloudTrail events and detects unusual activity
+* not free
+
+### CloudTrail Events Retention
+* Events are stored for 90 days by default
+* anything beyond, log to s3 and use Athena
+
+### X-Ray
+*
