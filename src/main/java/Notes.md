@@ -540,3 +540,48 @@ MQ
 
 ### Transit Gateway
 * Connect thousands of VPC and on-premises networks together
+
+<hr><hr>
+
+## Security & Compliance
+### Shared Responsibility Model
+
+#### AWS
+* Responsible for the security of the cloud and protecting infrastructure
+
+#### User
+* Responsible for how products are used 
+
+<hr>
+
+### DDOS Attack
+* Distributed Denial-of-Service
+* Bots overwhelm the server and users cannot access it
+* AWS Sheild Standard (free, protects layer 3 & 4 attacks SYN/UDP) and Shield Advanced (24/7 
+  premium, $3000 per month)
+  
+### AWS WAF - Web Application Firewall
+* Protects web applications from common web exploits (Layer 7)
+* Layer 7 = HTTP, Layer 4 = TCP
+* Web ACL (Web Access Control List)
+
+### Penetration Testing
+* When you carry out security assessments on your own AWS infrastructure
+* Cannot do DDoS, DoS, DNS, or Port Flooding
+
+### KMS
+* Key management service
+* AWS manages the encryption keys
+* Auto enabled : CloudTrail Logs, S3 Glacier, Storage Gateway
+* Opt-in : EBS Volumes, S3 buckets, Redshift, RDS, EFS
+
+### CloudHSM
+* AWS provisions the encryption hardware, but you manage your own encryption keys
+* Uses HSM (Hardware security something)
+
+* CMK : Customer Master Keys
+  * Customer managed CMK
+  * AWS managed
+  * AWS owned (you cant view the keys)
+  * CloudHSM Keys (custom keystore)
+
