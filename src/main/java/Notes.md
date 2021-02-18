@@ -430,3 +430,11 @@ CDN - Content Delivery Network
 * An intermediate access point between the user and your origin (S3 or AWS HTTP). 
 If content is cached in the Edge, the origin does not need to be tapped for info
 
+## AWS Outposts
+* EC2 instances can run on your own physical outpost rack that has AWS 
+capabilities but lives in your own data center. 
+* Like a harddrive that has AWS on it. 
+* Extends the cloud to your own infrastructure.
+
+<hr><hr>
+
