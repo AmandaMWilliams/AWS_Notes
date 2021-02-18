@@ -493,7 +493,50 @@ MQ
 
 ### CloudTrail Events Retention
 * Events are stored for 90 days by default
-* anything beyond, log to s3 and use Athena
+* anything beyond, log to s3 and use Athena table to query the records
 
 ### X-Ray
-*
+* troubleshooting and debugging
+
+### Service Health Dashboard
+* general overview of all service health
+
+### Personal Health Dashboard
+* Shows personalized health for applications that directly impact you
+
+<hr><hr>
+
+## VPC and Networking
+
+### VPC
+
+* VPC : Virtual Private Cloud - private network to deploy your resources (regional)
+* Subnets allow you to partition your network inside you VPC, tied to an AZ
+* Public subnet is accessible from the internet, private is not
+* Route tables define subnet access
+
+### VPC Flow Logs
+* captures info about IP trafficking going into your interfaces
+
+### VPC Peering
+* Connect to VPC privately using AWS network and make them behave as if they were in the same network
+
+### VPC Endpoints
+* Provide private access to AWS Services within VPC
+
+### NACL 
+* Stateless, subnet rules for inbound and outbound
+
+### Site to Site VPN
+* Connect on-premises VPN to AWS
+* goes over the public internet
+* On Premises - need a Customer Gateway (CGW)
+* AWS - need a VGW
+
+### Direct Connect (DX)
+* establish a physical connection between on-premises and AWS
+* Goes over a private network
+* takes at least a month to establish
+
+### Transit Gateway
+* Connect thousands of VPC and on-premises networks together
