@@ -519,7 +519,8 @@ MQ
 * captures info about IP trafficking going into your interfaces
 
 ### VPC Peering
-* Connect to VPC privately using AWS network and make them behave as if they were in the same network
+* Connect to VPC privately using AWS network and make them behave as if 
+  they were in the same network
 
 ### VPC Endpoints
 * Provide private access to AWS Services within VPC
@@ -557,7 +558,8 @@ MQ
 ### DDOS Attack
 * Distributed Denial-of-Service
 * Bots overwhelm the server and users cannot access it
-* AWS Sheild Standard (free, protects layer 3 & 4 attacks SYN/UDP) and Shield Advanced (24/7 
+* AWS Sheild Standard (free, protects layer 3 & 4 attacks SYN/UDP) and 
+  Shield Advanced (24/7 
   premium, $3000 per month)
   
 ### AWS WAF - Web Application Firewall
@@ -576,7 +578,8 @@ MQ
 * Opt-in : EBS Volumes, S3 buckets, Redshift, RDS, EFS
 
 ### CloudHSM
-* AWS provisions the encryption hardware, but you manage your own encryption keys
+* AWS provisions the encryption hardware, but you manage your own 
+  encryption keys
 * Uses HSM (Hardware security something)
 
 * CMK : Customer Master Keys
@@ -584,4 +587,17 @@ MQ
   * AWS managed
   * AWS owned (you cant view the keys)
   * CloudHSM Keys (custom keystore)
+
+### Secrets Manager
+* Capability to force rotation of secrets every N days
+
+### Artifact
+* Portal that provides customers with on-demand access to AWS 
+  compliance documentation and AWS agreements
+  
+### GuardDuty
+* Intelligent Threat discovery to protect AWS account
+
+### Inspector
+* Analyze the running OS against known vulnerabilities
 
