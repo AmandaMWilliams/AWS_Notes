@@ -427,6 +427,7 @@ CDN - Content Delivery Network
 * Improves read performance, content is cached at the edge
 * Improves users experience
 * DDoS protection, integration with Shield AWS Web Application Firewall
+* WAF - web access controls :  prevents web attacks
 * An intermediate access point between the user and your origin (S3 or AWS HTTP). 
 If content is cached in the Edge, the origin does not need to be tapped for info
 
