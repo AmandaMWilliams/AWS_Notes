@@ -410,4 +410,23 @@ execute transactions without the need for a trusted, central authority
 * A cloud IDE for writing, running and debugging code
 
 
+<hr><hr>
+
+## Route 53
+* Managed DNS (Domain Name System)
+* DNS is a collection of rules and records which helps clients understand 
+  how to reach a server through URLs.
+  
+Simple Routing Policy - no health checks
+Weighted Routing Policy- percentages
+Latency Routing Policy - routes to a different region based on where the user is
+Failover Routing Policy - Disaster recovery
+
+## CloudFront
+CDN - Content Delivery Network
+* Improves read performance, content is cached at the edge
+* Improves users experience
+* DDoS protection, integration with Shield AWS Web Application Firewall
+* An intermediate access point between the user and your origin (S3 or AWS HTTP). 
+If content is cached in the Edge, the origin does not need to be tapped for info
 
