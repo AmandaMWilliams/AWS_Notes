@@ -684,7 +684,7 @@ contact center
 * Great to eliminate management of on-premise VDI (Virtual Desktop 
   Infrastruture)
   
-### AppStream2.0
+### AppStream 2.0
 * Desktop Application Streaming Service
 * Application streamed from within a web browser without acquiring or 
   provisioning the app
@@ -698,4 +698,5 @@ contact center
 * Allows you to easily connect IoT devices into the cloud
 
 ### Elastic Transcoder
-* 
+* Used to convert media files stored in S3 into media files in the 
+  formats required by consumer playback devices
