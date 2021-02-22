@@ -600,3 +600,42 @@ MQ
 
 ### Inspector
 * Analyze the running OS against known vulnerabilities
+
+<hr><hr>
+
+## Machine Learning
+### Rekognition
+* Finds objects, people, text, scenes in images and videos using 
+    Machine Learning
+* Facial analysis and facial search to do user verification, people 
+  counting
+
+### Transcribe
+* Converts speech into text
+* Uses deep learning process called ASR automatic speech recognition
+
+### Polly
+* Turn text into lifelike speech
+
+### Translate
+* Language translation
+
+### Lex & Connect
+* Same technology that powers Alexa
+* ASR
+* Helps build chatbots, call center bots
+* Connect : recieve calls, create contact flows, cloud-based virtual 
+contact center
+  
+*No upfront payments
+
+### Comprehend
+* NLP Natural Language Processing
+* Uses machine learning to find insights and relationships (like 
+  language, tone, topic, etc.)
+  
+### SageMaker
+* Fully managed service for devs/data scientists to build Machine 
+  Learning models
+  
+* Difficult to do all the processes in one place
