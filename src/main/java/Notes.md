@@ -639,3 +639,18 @@ contact center
   Learning models
   
 * Difficult to do all the processes in one place
+
+<hr><hr>
+
+## Account Management, Billing, and Support
+### Organizations (Global)
+* Allows to manage multiple AWS accounts
+* Consolidated billing across all accounts, single payment method
+* Pooling of reserved EC2 instances for optimal savings
+* API is availableto automate AWS account creation
+* Restrict account privileges using SCP Service Control Policies
+* SCP does not allow anything by default
+
+### Control Tower
+*
+
