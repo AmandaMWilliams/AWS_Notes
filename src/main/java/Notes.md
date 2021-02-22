@@ -700,3 +700,50 @@ contact center
 ### Elastic Transcoder
 * Used to convert media files stored in S3 into media files in the 
   formats required by consumer playback devices
+  
+<hr><hr>
+
+## AWS Architecting & Ecosystem
+### WhitePapers
+* Stop guessing your capacity needs
+* Design principles : Scalability, have Disposable Resources, 
+  Automation, Loose Coupling, Services, not Servers
+#### 1st Pillar - Operational Excellence
+* Ability to run and monitor systems to deliver business value and to 
+  continually improve supporting processes and procedures
+  * Prepare (AWS CloudFormation > AWS Config)
+  * Operate (AWS CF > Config > CloudTrail, CloudWatch, AWS X-ray)
+  * Evolve ( CF, Codebuild, codecommit, codedeploy, codepipeline)
+  
+#### 2nd Pillar - Security
+* Ability to protect information, systems and assets while delivering 
+  business value through reist assessments and mitigation strategies
+  * Identity and Access Management (IAM, etc)
+  * Detective Controls (CloudWatch, etc)
+  * Infrastructure Protection (Shield, Inspector, etc)
+  * Data Protection (S3, etc)
+  * Incident Response
+  
+#### 3rd Pillar - Reliability
+* Ability of a system to recover from disruptions, and dynamically acquire 
+  computing resources to meet demand.
+  * Foundations (IAM, VPC, Service limits)
+  * Change Management (AutoScaling, CloudWatch, etc)
+  * Failure Management (Backups, S3/Glacier, Route 53, etc)
+  
+#### 4th Pillar - Performance Efficiency
+* Ability to use computing resources efficiently to meet system 
+  requirements, and maintain that efficiency as demand changes and 
+  tech evolves.
+  * Selection (Autoscaling, lambda, EBS, S3)
+  * Review (CloudFormation)
+  * Monitoring (CloudWatch)
+  * Tradeoffs ( RDS, Snowball, ElastiCache)
+
+#### 5th Pillar - Cost Optimization
+* Ability to run systems to deliver business value at the lowest price 
+  point
+  * Expenditure Awareness
+  * Cost-Effective Resources
+  * Matching supply and demand
+  * Optimizing over time
