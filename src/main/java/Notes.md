@@ -747,3 +747,10 @@ contact center
   * Cost-Effective Resources
   * Matching supply and demand
   * Optimizing over time
+  
+### Well-Architected Tool
+* Free tool to review your architectures to see how they match with the 
+  5 pillars
+  
+### AWS Ecosystem
+* Free resources ( Blogs, Forums, Whitepapers and Guides, Quick Starts)
