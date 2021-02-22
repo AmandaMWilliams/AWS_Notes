@@ -708,6 +708,7 @@ contact center
 * Stop guessing your capacity needs
 * Design principles : Scalability, have Disposable Resources, 
   Automation, Loose Coupling, Services, not Servers
+  
 #### 1st Pillar - Operational Excellence
 * Ability to run and monitor systems to deliver business value and to 
   continually improve supporting processes and procedures
@@ -754,3 +755,24 @@ contact center
   
 ### AWS Ecosystem
 * Free resources ( Blogs, Forums, Whitepapers and Guides, Quick Starts)
+
+#### AWS Support
+* Developer Tier
+  * Business hours email access to Cloud Support Associates
+  * General guidance : < 24 business hours
+  * System impaired : < 12 business hours
+  
+* Business Tier
+  * 24x7 phones, email, and chat access to Cloud Support Engineers
+  * Production system impaired : < 4 hours
+  * Production system down : < 1 hour
+  
+* Enterprise 
+  * Access to a Technical Account Manager (TAM)
+  * Concierge Support Team ( for billing and account best practices)
+  * Business-critical system down : < 15 minutes
+  
+#### AWS Marketplace
+#### AWS Training
+#### AWS Professional Services & Partner Network
+* A network of people that AWS knows is good with the cloud
