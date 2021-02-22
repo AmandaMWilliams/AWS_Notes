@@ -647,10 +647,55 @@ contact center
 * Allows to manage multiple AWS accounts
 * Consolidated billing across all accounts, single payment method
 * Pooling of reserved EC2 instances for optimal savings
-* API is availableto automate AWS account creation
+* API is available to automate AWS account creation
 * Restrict account privileges using SCP Service Control Policies
 * SCP does not allow anything by default
 
 ### Control Tower
-*
+* Easy way to setup and govern a secure and compliant multi-account AWS 
+  environment without having to manually setup up permissions.
+  
+### Pricing
+* Pay as you go
+* Free : IAM, VPC, Consolidated Billing, EC2 t2.micro instance free 
+    for a year
+  
 
+<hr><hr>
+
+## Advanced Identity
+### Cognito
+* Provides identity for you web and mobile applications users
+
+### Microsoft Active Directory (AD)
+* Database of objects : user accounts, computers, printers, file shares,
+  security groups.
+  
+### SSO
+* Single Sign-on
+* One log in for multiple accounts
+* Integrates with AWS Organizations
+
+<hr><hr>
+
+## Other
+### WorkSpaces
+* DaaS (Desktop as a Service)
+* Great to eliminate management of on-premise VDI (Virtual Desktop 
+  Infrastruture)
+  
+### AppStream2.0
+* Desktop Application Streaming Service
+* Application streamed from within a web browser without acquiring or 
+  provisioning the app
+  
+### Sumerian
+* Create and run virtual reality (VR), augmented reality (AR) and 3D 
+  applications
+
+### IoT Core 
+* Internet of Things
+* Allows you to easily connect IoT devices into the cloud
+
+### Elastic Transcoder
+* 
