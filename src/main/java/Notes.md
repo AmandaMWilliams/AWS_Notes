@@ -209,6 +209,29 @@ Availability: how readily available a service is, high availability
 
 <hr>
 
+### S3 Summary 
+* <b><u>Buckets vs Objects</u></b> : global unique name, tied to a region
+* <b><u>S3 security</u></b> : IAM policy, S3 Bucket policy (public 
+  access), S3 Encryption
+* <b><u>S3 Websites</u></b> : host a static website on Amazon S3
+* <b><u>S3 Versioning</u></b> : multiple versions for files, prevent 
+  accidental deletes
+* <b><u>S3 Access Logs</u></b> : log requests made within your S3 bucket
+* <b><u>S3 Replication</u></b> : same-region or cross-region, must 
+  enable versioning
+* <b><u>S3 Storage Classes</u></b> : Standard, IA, IZ-IA, Intelligent, 
+  Glacier, 
+  Glacier Deep Archive
+* <b><u>S3 Lifecycle Rules</u></b> : transition objects between classes
+* <b><u>S3 Glacier Vault Lock / S3 Object Lock</u></b>: WORM (Write Once Read Many)
+* <b><u>Snow Family</u></b>: import data onto S3 through a physical device, edge 
+  computing
+* <b><u>OpsHub</u></b> : desktop application to manage Snow Family devices
+* <b><u>Storage Gateway</u></b> : hybrid solution to extend 
+  on-premises storage to S3
+
+<hr>
+
 ### S3 Shared Responsibility Model
 #### AWS
 * Infrastructure (global security, durability, availability, sustain concurrent loss of data in two facilities)
