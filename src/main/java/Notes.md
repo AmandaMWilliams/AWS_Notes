@@ -212,7 +212,7 @@ Availability: how readily available a service is, high availability
 ### S3 Summary 
 * <b><u>Buckets vs Objects</u></b> : global unique name, tied to a region
 * <b><u>S3 security</u></b> : IAM policy, S3 Bucket policy (public 
-  access), S3 Encryption
+  access), S3 Encryption  
 * <b><u>S3 Websites</u></b> : host a static website on Amazon S3
 * <b><u>S3 Versioning</u></b> : multiple versions for files, prevent 
   accidental deletes
