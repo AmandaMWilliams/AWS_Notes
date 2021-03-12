@@ -156,10 +156,10 @@ AWS Marketplace AMI :  AMI made by someone else (a vendor)<br>
 * Ensuring their employees cannot access customer data
 
 #### User
-* Setting up backup/snapshot procedures
-* Setting up data encryption
-* Responsibility for any data on the drives
-* Understanding the risk of using EC2 Instance Store
+* Setting up backup/snapshot procedures  
+* Setting up data encryption  
+* Responsibility for any data on the drives  
+* Understanding the risk of using EC2 Instance Store  
 
 <hr><hr>
 
